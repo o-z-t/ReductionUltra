@@ -140,7 +140,7 @@ public class IncomingNumberBoxes extends Animation
           else if (clickedDenominatorRect.getFill() == ACTIVE_COLOR)
           {
             clickedDenominatorRect.setFill(INACTIVE_COLOR);
-            denominatorFactors.remove(denominatorFactors.indexOf(clickedDenominatorFactor));
+            denominatorFactors.remove(clickedDenominatorFactor);
           }
 
           if (!numeratorFactors.isEmpty() && !denominatorFactors.isEmpty())
